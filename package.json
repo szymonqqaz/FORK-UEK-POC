@@ -10,7 +10,7 @@
   "scripts": {
     "develop": "rm -r .cache && gatsby develop",
     "start": "rm -r .cache && gatsby develop",
-    "build": "rm -r .cache && gatsby build",
+    "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "check-branch-name": "chmod 755 ./.husky/hooks/check_branch_naming.sh && sh ./.husky/hooks/check_branch_naming.sh"
